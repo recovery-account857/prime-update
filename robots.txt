@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+Disallow: /action/
+Disallow: /assets/
+Disallow: /logs/
+Disallow: /system/
